@@ -23,6 +23,8 @@ const notify = $.isNode() ? require('./sendNotify') : '';
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 let jdNotify = true;//是否关闭通知，false打开通知推送，true关闭通知推送
 //IOS等用户直接用NobyDa的jd cookie
+console.log("1111111");
+
 let cookiesArr = [], cookie = '', message;
 let helpAuthor = true
 if ($.isNode()) {
